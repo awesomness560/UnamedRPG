@@ -118,7 +118,7 @@ public class TerrainGenerator : MonoBehaviour
 
         // Apply the texture to our material and apply the material to our MeshRenderer.
         material.mainTexture = texture;
-        meshRenderer.material = TheMaterial;
+
 
         mesh.RecalculateBounds();
         MeshCollider meshCollider = gameObject.GetComponent<MeshCollider>();
